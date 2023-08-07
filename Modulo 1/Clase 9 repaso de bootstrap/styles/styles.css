@@ -1,0 +1,25 @@
+.imgHero {
+  width: 280px;
+}
+
+main {
+  background-color: #e6e6e6;
+}
+
+.imgCard {
+  width: 200px;
+}
+
+main section:nth-child(2) {
+  background-color: black;
+}
+
+.icons {
+  filter: invert(100%);
+  opacity: 0.6;
+  width: 50px;
+}
+
+.bgCard {
+  background-color: #232323;
+}

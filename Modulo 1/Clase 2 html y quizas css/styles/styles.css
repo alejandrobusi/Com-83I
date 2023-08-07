@@ -1,0 +1,36 @@
+header {
+  background-color: cadetblue;
+  border: 3px solid black;
+}
+
+section {
+  background-color: black;
+  color: white;
+}
+
+.nuevaClase {
+  background-color: yellow;
+}
+
+#firstSection {
+  background-color: brown;
+}
+
+.footerClass {
+  background: linear-gradient(126deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  padding: 10px;
+  text-shadow: 6px 5px 5px #000000;
+}
+
+main > section:nth-child(1) > ul{
+  color: rgb(7, 156, 124);
+  text-shadow: 6px 5px 5px #000000;
+}
+
+#firstSection:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#firstSection:active {
+  background-color: aliceblue;
+}

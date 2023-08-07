@@ -1,0 +1,88 @@
+body {
+  background-color: #efefef;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dados {
+  color: rebeccapurple;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  max-width: 736px;
+  max-height: 570px;
+  margin-bottom: 50px;
+}
+
+.numero {
+  background-color: #ec9797;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+}
+
+
+.displayNone {
+  display: none;
+}
+
+hr {
+  min-width: 100%; 
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.panel {
+  margin-bottom: 50px;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.verde {
+  background-color: green;
+}
+
+.azul {
+  background-color: blue;
+}
+
+
+.relative {
+  position: relative;
+  top: -40px;
+  right: -150px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  font-weight: bold;
+}
+
+.relativo {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  left: 300px;
+  border: 2px solid black;
+  top:100px
+}
